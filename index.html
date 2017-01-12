@@ -6,9 +6,52 @@
     <script type="text/javascript" src="js/scripts.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
-    <title></title>
+    <title>Celebrity Dating Site</title>
   </head>
   <body>
+    <h1> Find out which celebrity you should date!</h1>
+
+    <form id="questionnaire">
+
+      <h3>What gender do you prefer</h3>
+      <div class="radio" class="form-control">
+        <label>
+          <input type="radio" name="gender" value="male">
+          Male
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="gender" value="female">
+          Female
+        </label>
+      </div>
+
+      <h3>What is your age?</h3>
+      <select class="form-control" id="age">
+        <option>0-12 years old</option>
+        <option>13-20 years old</option>
+        <option>21-45 years old</option>
+        <option>45+</option>
+      </select>
+
+      <h3>What personality type do you like best?</h3>
+      <div class="radio" class="form-control">
+        <label>
+          <input type="radio" name="personality" value="mysterious">
+          Mysterious
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="personality" value="fun">
+          Fun
+        </label>
+      </div>
+
+
+      <button type="submit" class="btn btn-success">Let's find out!</button>
+    </form>
 
   </body>
 </html>
