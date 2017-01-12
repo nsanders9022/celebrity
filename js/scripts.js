@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $("#questionnaire").submit(function(event){
-    
+    $(".person").hide();
     var gender = $("input:radio[name=gender]:checked").val();
     var age = $("#age").val();
     var personality = $("input:radio[name=personality]:checked").val();

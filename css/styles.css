@@ -7,6 +7,10 @@ img {
   max-height: 400px;
 }
 
-.selena, .cara, .jennifer, .eva, .meryl, .queen, .thomas, .nick, .neil, .chris, .tom, .george {
+/*.selena, .cara, .jennifer, .eva, .meryl, .queen, .thomas, .nick, .neil, .chris, .tom, .george {
+  display: none;*/
+/*}*/
+
+.person {
   display: none;
 }
